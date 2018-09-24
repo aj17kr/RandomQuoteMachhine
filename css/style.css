@@ -89,5 +89,4 @@ animation: rainbow 18s ease infinite;
     /* ============STARTS Center align MEHOD 2 (FLEXBOX) ================ */
   html,body{height: 100%}
   body{display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
- /*.quote-wrapper{flex-grow: 1;}*/
     /* ============ENDS Center align MEHOD 1 ================ */
