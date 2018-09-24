@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" 	href="css/style.css">
+    <title>Random Quotes Generator</title>
+</head>
+<body>
+		<h2>Random Quotes Machine</h2>
+		<!-- Quotes Wrapper -->
+		<div class="quote-wrapper">
+
+			<div class="quote-content">
+				<div style="display:block" id="animation"><img src="loading.gif" alt="loading"></div>
+				<p id='quote-para'></p>
+				<small id='quote-author' style="font-weight: 600"></small>
+			</div>
+			<div class="quote-links">
+				<a type="button" class="button next"><i class="fa fa-angle-right fa-lg"></i></a>
+				<a type="button" class="button twitter-share-btn" target='_blank' onmousedown="event.preventDefault()"><i class="fa fa-twitter fa-lg"></i></a>
+				<a type="button" class="button whatsapp-share-btn" target="_blank" onmousedown="event.preventDefault()"><i class="fa fa-whatsapp fa-lg"></i></a>
+			</div>
+
+		</div>
+
+<footer>
+	<p>Designed and Developed by <a href="http://aj17kr.github.io/AjPersonalPortfolio" target="_blank"><span>Akhil Jain</span></a></p>
+</footer>
+
+	<script src='scripts/quoteApi.js'></script>
+	<script src='scripts/app.js'></script>
+</body>
+</html>
+
+
+<!-- Pending
+1) Animation when load new quote
+2) Test in small screen/sartphone
+ -->

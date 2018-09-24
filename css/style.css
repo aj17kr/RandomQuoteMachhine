@@ -1,0 +1,93 @@
+body{color:#fff;
+/* STARTS Gradient color `ation*/
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+animation: rainbow 18s ease infinite;
+-webkit-animation: rainbow 18s ease-in infinite;
+-z-animation: rainbow 18s ease-in  infinite;
+-o-animation: rainbow 18s ease-in  infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+/* END Gradient color animation*/
+
+	h2,footer{font-family: 'Pacifico'}
+	.quote-wrapper{
+		font-size:22px;
+		font-family: 'Cabin Sketch', serif;
+		max-width: 550px;
+		word-spacing:0.27em;
+		text-align: center;
+		background-color: rgba(200, 200, 200,0.3);
+		border-radius: 15px;
+	}
+
+	.quote-content{
+		padding:20px 10px 0px 10px;
+	}
+	.quote-links{
+		background-color: rgba(230, 230, 230,0.4);
+		padding-top:25px;
+		padding-bottom: 10px;
+		border-radius: 0 0 15px 15px;
+	}
+	.button{
+		border-radius: 50px;
+		font-size: 20px;
+		border-color:white;
+		background-color: white;
+		outline:none;
+		transition:all 0.3s ease
+	}
+	.button:hover,.button:focus{border-color:white;background-color: #ffffffba}
+	.button .fa-twitter{color:#1da1f2;}
+	.button .fa-whatsapp{color:#34af23;}
+	footer{
+		font-size: 18px;
+		color:#fff;
+		margin-top: 15px 
+	}
+	footer p{letter-spacing: 0.13em}
+	footer span{font-weight: bold;	}
+    footer a{text-decoration: underline; color:white;}
+
+    /* ============STARTS Center align METHOD 1 ================ */
+/*
+	body{text-align: center;}
+
+    footer{position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	.quote-wrapper{margin:30px auto;}*/
+
+    /* ============ENDS Center align MEHOD 1 ================ */
+
+
+
+    /* ============STARTS Center align MEHOD 2 (FLEXBOX) ================ */
+  html,body{height: 100%}
+  body{display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+ /*.quote-wrapper{flex-grow: 1;}*/
+    /* ============ENDS Center align MEHOD 1 ================ */
